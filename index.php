@@ -4,8 +4,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
 		<title>Electro - HTML Ecommerce Template</title>
 
 		<!-- Styles -->
@@ -14,7 +12,7 @@
     </head>
 	<body>
 		<!-- HEADER -->
-		<?php require ("layouts/headers.php") ?>
+		<?php require ("layouts/headers.php") ?> 
 		<!-- /HEADER -->
 
 		<!-- NAVIGATION -->
@@ -22,7 +20,21 @@
 		<!-- /NAVIGATION -->
 
 		<main>
-			<?php require ("layouts/mains.php") ?>
+			<?php
+				if(isset($_GET['pages'])){
+					include ('pages/account/'.$_GET['pages'].'.php');
+				}elseif(isset($_GET['pages'])){
+					include ('pages/wishlist/'.$_GET['pages'].'.php');
+				}elseif (isset($_GET['pages'])) {
+					include ('pages/yourcard/'.$_GET['pages'].'.php');
+				} elseif(isset($_GET['pages'])) {
+					include ('pages/login/'.$_GET['pages'].'.php'); 
+				}else{
+					require ("layouts/mains.php"); 
+				}
+
+			?>
+			
 		</main>
 
 		<!-- FOOTER -->

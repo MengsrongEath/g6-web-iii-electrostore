@@ -10,9 +10,9 @@
 								<h3 class="footer-title">About Us</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>email@email.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Khan Toul Kok, Phnom Penh</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+855 16 243 45</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>electro@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -65,9 +65,9 @@
 			<!-- /top footer -->
 
 			<!-- bottom footer -->
-			<div id="bottom-footer" class="section">
+			<!-- <div id="bottom-footer" class="section">
 				<div class="container">
-					<!-- row -->
+				
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<ul class="footer-payments">
@@ -79,15 +79,15 @@
 								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
 							</ul>
 							<span class="copyright">
-								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								
 								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							
 							</span>
 						</div>
 					</div>
-						<!-- /row -->
+						
 				</div>
-				<!-- /container -->
-			</div>
+				
+			</div> -->
 			<!-- /bottom footer -->
 		</footer>
